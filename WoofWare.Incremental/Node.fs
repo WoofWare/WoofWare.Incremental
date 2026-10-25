@@ -747,7 +747,7 @@ module internal NodeCrate =
         let invariant (m : AsList) (t : NodeCrate voption) = iter m t invariant
 
     let iterDescendantsInternal (ts : NodeCrate list) (f : NodeCrate -> unit) : HashSet<NodeId> =
-        let seen = HashSet<NodeId> ()
+        let seen = HashSet<NodeId>()
 
         let rec iterDescendants (nodeCrate : NodeCrate) =
             { new NodeEval<_> with

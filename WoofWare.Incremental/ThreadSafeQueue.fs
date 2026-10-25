@@ -17,5 +17,5 @@ module internal ThreadSafeQueue =
             | false, _ -> cont <- false
             | true, v -> f v
 
-    let create<'a> () = ConcurrentQueue<'a> ()
+    let create<'a> () = ConcurrentQueue<'a>()
     let enqueue<'a> (v : 'a) (t : ThreadSafeQueue<'a>) = t.Enqueue v

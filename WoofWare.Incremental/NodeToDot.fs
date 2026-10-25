@@ -32,7 +32,7 @@ module NodeToDot =
         write "digraph G {\n"
         write "  rankdir = BT\n"
 
-        let seen = HashSet<NodeId> ()
+        let seen = HashSet<NodeId>()
         let bindEdges = ResizeArray ()
 
         ForAnalyzer.traverse

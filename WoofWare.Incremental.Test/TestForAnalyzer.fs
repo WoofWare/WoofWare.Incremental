@@ -37,7 +37,7 @@ type NodePrint =
 [<TestFixture>]
 module TestForAnalyzer =
     let printNodes (nodeList : 'a list) (pack : 'a -> NodeCrate) (outputNode : NodePrint -> string) : string =
-        let nodes = ResizeArray<NodePrint> ()
+        let nodes = ResizeArray<NodePrint>()
 
         ForAnalyzer.traverse
             (List.map pack nodeList)

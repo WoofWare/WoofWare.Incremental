@@ -222,7 +222,7 @@ type IncrementalImpl (state : State) =
             // feed [Clock.now ()] to a time function, it can be rounded down to a time in
             // the past, causing errors.
             let divided = float<int64<timeNs>> start / 1000.0
-            let start = int64<float> (System.Math.Round divided) * 1000L<timeNs>
+            let start = int64<float>(System.Math.Round divided) * 1000L<timeNs>
             State.createClock state config start
 
         { new IClock with

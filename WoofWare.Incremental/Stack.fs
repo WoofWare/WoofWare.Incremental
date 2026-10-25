@@ -18,4 +18,4 @@ module internal Stack =
         | false, _ -> ValueNone
         | true, v -> ValueSome v
 
-    let create<'a> () = Stack<'a> ()
+    let create<'a> () = Stack<'a>()

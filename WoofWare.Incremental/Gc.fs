@@ -12,7 +12,7 @@ type private FinalizerAction<'a when 'a : not struct> (action : 'a -> unit, targ
 [<RequireQualifiedAccess>]
 module internal Gc =
     // Table to associate finalizer objects with targets
-    let private finalizerTable = ConditionalWeakTable<obj, obj> ()
+    let private finalizerTable = ConditionalWeakTable<obj, obj>()
 
     /// Do not throw inside `action`! `action` is run inside a finalizer, so throwing may
     /// bring down the entire process.

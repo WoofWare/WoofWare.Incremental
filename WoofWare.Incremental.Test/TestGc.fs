@@ -106,8 +106,8 @@ module TestGc =
     [<Test>]
     let ``ConditionalWeakTable does not create strong references`` () =
         // This tests that our implementation doesn't accidentally keep objects alive
-        let collectableRefs = ResizeArray<WeakReference> ()
-        let finalizerCounts = ResizeArray<int> ()
+        let collectableRefs = ResizeArray<WeakReference>()
+        let finalizerCounts = ResizeArray<int>()
 
         for i = 1 to 10 do
             let target = TestObject i
@@ -132,7 +132,7 @@ module TestGc =
 
     [<Test>]
     let ``Finalizer works with different object types`` () =
-        let results = ResizeArray<string> ()
+        let results = ResizeArray<string>()
 
         // Test with different types
         do

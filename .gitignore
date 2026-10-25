@@ -15,3 +15,5 @@ result
 incremental/
 .analyzerpackages/
 *.sarif
+
+.DS_Store

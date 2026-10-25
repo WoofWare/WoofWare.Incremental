@@ -66,8 +66,8 @@ module Utils =
 
         add, exp
 
-    let inline onObserverUpdateQueue () = onUpdateQueue'<Observer.Update<int>> ()
-    let inline onUpdateQueue () = onUpdateQueue'<NodeUpdate<int>> ()
+    let inline onObserverUpdateQueue () = onUpdateQueue'<Observer.Update<int>>()
+    let inline onUpdateQueue () = onUpdateQueue'<NodeUpdate<int>>()
 
     let isInvalid (fix : IncrementalFixture) (t : Node<'a>) =
         let o = fix.I.Observe t

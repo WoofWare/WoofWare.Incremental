@@ -7,7 +7,7 @@
     <Copyright>Copyright (c) Patrick Stevens 2025</Copyright>
     <Description>A library for expressing computations that can change efficiently based on their inputs over time.</Description>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/Smaug123/WoofWare.Incremental</RepositoryUrl>
+    <RepositoryUrl>https://github.com/WoofWare/WoofWare.Incremental</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>light.png</PackageIcon>

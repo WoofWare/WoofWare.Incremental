@@ -31,11 +31,11 @@ module TestScope =
     [<Test>]
     let ``top equals null returns false, does not throw`` () =
         // The .NET equality contract requires x.Equals(null) = false rather than throwing.
-        (Scope.top :> obj).Equals (null : obj) |> shouldEqual false
+        (Scope.top :> obj).Equals(null : obj) |> shouldEqual false
 
     [<Test>]
     let ``top equals non-Scope returns false, does not throw`` () =
-        (Scope.top :> obj).Equals (box "not a scope") |> shouldEqual false
+        (Scope.top :> obj).Equals(box "not a scope") |> shouldEqual false
 
     [<Test>]
     let ``top hash code does not throw and is consistent`` () =
@@ -45,8 +45,8 @@ module TestScope =
     let ``bind scope equals null and non-Scope returns false, does not throw`` () =
         let fix = IncrementalFixture.Make ()
         let s = getBindScope fix
-        (s :> obj).Equals (null : obj) |> shouldEqual false
-        (s :> obj).Equals (box 42) |> shouldEqual false
+        (s :> obj).Equals(null : obj) |> shouldEqual false
+        (s :> obj).Equals(box 42) |> shouldEqual false
 
     [<Test>]
     let ``equal bind scopes have equal hash codes`` () =

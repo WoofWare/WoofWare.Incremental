@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <IsPackable>false</IsPackable>
     <OutputType>Exe</OutputType>
   </PropertyGroup>
@@ -51,13 +51,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ApiSurface" Version="5.0.3"/>
-    <PackageReference Include="FsCheck" Version="3.3.2"/>
-    <PackageReference Include="FsUnit" Version="7.1.1"/>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.1"/>
-    <PackageReference Include="NUnit" Version="4.4.0"/>
-    <PackageReference Include="NUnit3TestAdapter" Version="6.0.1"/>
-    <PackageReference Include="WoofWare.Expect" Version="0.8.5" />
+    <PackageReference Include="ApiSurface" Version="5.0.11"/>
+    <PackageReference Include="FsCheck" Version="3.6.0"/>
+    <PackageReference Include="FsUnit" Version="8.0.0"/>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.11.0"/>
+    <PackageReference Include="NUnit" Version="5.0.0"/>
+    <PackageReference Include="NUnit3TestAdapter" Version="6.3.1"/>
+    <PackageReference Include="WoofWare.Expect" Version="0.8.7" />
   </ItemGroup>
 
   <ItemGroup>

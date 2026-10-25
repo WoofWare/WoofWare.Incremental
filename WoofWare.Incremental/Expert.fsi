@@ -7,13 +7,11 @@ namespace WoofWare.Incremental
     events (new value in a child etc) are exposed to the user. *)
 
 [<RequireQualifiedAccess>]
-[<Struct>]
 type internal StaleResult =
     | AlreadyStale
     | Ok
 
 [<RequireQualifiedAccess>]
-[<Struct>]
 type internal BeforeMainComputationResult =
     | Invalid
     | Ok

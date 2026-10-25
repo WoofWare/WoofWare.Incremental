@@ -7,8 +7,8 @@
 </picture>
 
 [![NuGet version](https://img.shields.io/nuget/v/WoofWare.Incremental.svg?style=flat-square)](https://www.nuget.org/packages/WoofWare.Incremental)
-[![GitHub Actions status](https://github.com/Smaug123/WoofWare.Incremental/actions/workflows/ci.yaml/badge.svg)](https://github.com/Smaug123/WoofWare.Incremental/actions?query=branch%3Amain)
-[![License file](https://img.shields.io/github/license/Smaug123/WoofWare.Incremental)](./LICENCE.md)
+[![GitHub Actions status](https://github.com/WoofWare/WoofWare.Incremental/actions/workflows/ci.yaml/badge.svg)](https://github.com/WoofWare/WoofWare.Incremental/actions?query=branch%3Amain)
+[![License file](https://img.shields.io/github/license/WoofWare/WoofWare.Incremental)](./LICENCE.md)
 
 This is [`incremental`](https://github.com/janestreet/incremental), but in F#.
 

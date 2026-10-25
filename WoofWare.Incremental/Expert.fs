@@ -1,13 +1,11 @@
 namespace WoofWare.Incremental
 
 [<RequireQualifiedAccess>]
-[<Struct>]
 type internal StaleResult =
     | AlreadyStale
     | Ok
 
 [<RequireQualifiedAccess>]
-[<Struct>]
 type internal BeforeMainComputationResult =
     | Invalid
     | Ok
